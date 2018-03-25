@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="studio.opclound.ada_and_james.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ada Lovelance"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ada"
+            />
+        <TextView
+            android:id="@+id/text_ada"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Ada_Lovelace"
+            android:singleLine="false"
+            android:textSize="20sp"
+            android:scrollbars="vertical"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
