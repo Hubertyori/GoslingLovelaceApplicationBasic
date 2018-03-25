@@ -105,7 +105,7 @@ adding those codes in the Oncreat() function
 For part 2 
 
 
-![Demo](part2.gif)
+![Demo](Part2.gif)
 
 Part2 is required to change the language when the application in diffirent language enviroument. So there are 3 steps to realise it:
 
